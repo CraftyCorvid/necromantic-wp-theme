@@ -1,0 +1,76 @@
+/*
+Theme Name: Necromantic
+Theme URI: https://github.com/Ivan0xFF/necromantic-wp-theme
+Author: Ivan0xFF
+Author URI: https://ivanff.com
+Template: nucleare
+Description: Child Theme for Nucleare. Used for http://www.necromantical.com
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: necromantic
+Tags: two-columns, right-sidebar, custom-background, custom-menu, custom-colors, sticky-post, featured-images, theme-options, translation-ready, blog, news
+*/
+
+@font-face {
+    font-family: 'FloraliaRegular';
+    src: url('fonts/Floralia-webfont.eot');
+    src: url('fonts/Floralia-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Floralia-webfont.ttf') format('truetype'),
+         url('fonts/Floralia-webfont.svg#FloraliaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.floral{
+    font-family: 'FloraliaRegular';	
+}
+
+.site-title {
+    font-family: 'Merriweather', serif;
+}
+
+.entry-summary a,
+.entry-content a {
+    color: #bf9c23;
+}
+
+.entry-content:before,
+.entry-content:after {
+	display: none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'Slabo 27px', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Vollkorn', serif;
+}
+
+.theNavigationSocial .top-search {
+	width: 70px;
+}
+
+.site-title {
+	font-size: 60px;
+}
+
+.entry-header {
+	text-align: center;
+}
+
+@media all and (max-width: 782px) {
+	.menu-toggle, .theNavigationSocial .top-search {
+		width: 65px;
+	}
+}
