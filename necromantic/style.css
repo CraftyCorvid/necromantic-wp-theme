@@ -26,6 +26,7 @@ Tags: two-columns, right-sidebar, custom-background, custom-menu, custom-colors,
     font-family: 'FloraliaRegular';	
 }
 
+p.site-title,
 .site-title {
     font-family: 'Merriweather', serif;
 }
